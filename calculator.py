@@ -4,6 +4,7 @@ while True:
     opr = input("Enter the operator(+,-,*,**,/,%,Enter 'Exit' or 'Quit' to stop): ")
 
     if opr=='Exit'or opr=='Quit':
+      print()
       print('Thank you for using this calculator')
       break
     if opr=='+':
